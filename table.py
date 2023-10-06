@@ -42,7 +42,7 @@ class Table:
                 self.ball.reset_position()
                 self.scoreboard.left_point()
         
-            # Detect left paddle misses:
+            # Detect left paddle misses
             if self.ball.xcor() < -380:
                 self.ball.reset_position()
                 self.scoreboard.right_point()
